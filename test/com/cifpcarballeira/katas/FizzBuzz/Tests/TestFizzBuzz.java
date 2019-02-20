@@ -46,4 +46,11 @@ public class TestFizzBuzz {
     String result=fb.getFizzBuzz(5);
     assertEquals("Buzz", result);
     }
+    
+    @Test
+    public void test5devuelveFizzContiene3Divisible3() {
+    FizzBuzz fb=new FizzBuzz();
+    String result=fb.getFizzBuzz(13);
+    assertEquals("Fizz", result);
+    }
 }
